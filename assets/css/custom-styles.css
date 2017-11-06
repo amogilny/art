@@ -1,0 +1,110 @@
+/* ======= Custom Styles ======= */
+.page-nav-logo {
+	padding-right: 80px;
+}
+
+.container .menu {
+    background-color: rgba(53, 55, 60, 0.8);
+}
+
+/* Countdown */
+div#countdown {
+    padding-top: 70px;
+}
+
+div#clock {
+    padding-bottom: 20px;
+}
+
+#clock div {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin:0 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+#clock span {
+    display: block;
+    font-size: 52px;
+    font-weight: 300;
+    padding: 30px 0;
+    border-bottom: 1px solid #333;
+}
+#clock span {
+    border-bottom: 1px solid #fff!important;
+}
+
+@media (max-width: 768px) {
+    #clock div {
+        font-size: 14px;
+        margin:0 15px;
+    }
+    #clock span {
+        font-size: 42px;
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 468px) {
+    #clock div {
+        font-size: 11px;
+        margin:0 7px;
+    }
+    #clock span {
+        font-size: 32px;
+        padding: 5px 0;
+    }
+}
+
+.features-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features-section .play-icon {
+    position: absolute;
+    top: 33%;
+    left: 43%;
+    -webkit-opacity: 0.6;
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+@media (min-width: 768px) {
+    .features-section .play-icon {
+        /*top: 100px;*/
+    }
+}
+
+@media (min-width: 992px) {
+    .features-section .play-icon {
+        /*top: 110px;*/
+        /*left: 300px;*/
+    }
+}
+
+body.sticky-page-nav .overview-section {
+    padding-top: 20px;
+}
+
+.feature-blocks {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer .social-media li a {
+    width: 60px;
+    height: 60px;
+    padding-top: 15px;
+}
+
+.footer .social-media li .fa {
+    font-size: 32px;
+}
+
+.team-block {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
