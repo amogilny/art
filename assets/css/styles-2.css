@@ -787,21 +787,21 @@ textarea {
   height: 680px;
 }
 .hero-slider-wrapper .flexslider .slide.slide-1 {
-  background: #35373C url('http://www.hudojnik-impressionist.ru/wp-content/uploads/2015/12/12vangog_b.jpg') no-repeat 50% top;
+  background: #35373C url('../images/hero/hero-1.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-slider-wrapper .flexslider .slide.slide-2 {
-  background: #35373C url('http://jean-marc.janiaczyk.pagesperso-orange.fr/image2/poppyfield2.jpg') no-repeat 50% top;
+  background: #35373C url('../images/hero/hero-2.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-slider-wrapper .flexslider .slide.slide-3 {
-  background: #35373C url('http://vangogen.ru/wp-content/uploads/2014/06/427.jpg') no-repeat 50% top;
+  background: #35373C url('../images/hero/hero-3.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

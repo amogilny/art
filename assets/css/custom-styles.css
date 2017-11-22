@@ -1,4 +1,7 @@
 /* ======= Custom Styles ======= */
+.svg-white path {
+    fill: white;
+}
 .page-nav-logo {
 	padding-right: 80px;
 }
