@@ -2,8 +2,44 @@
 svg path {
     fill: #ffffff;
 }
+body {
+  font-family: 'Poiret One', sans-serif;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+}
+.quote-item .quote {
+  font-weight: lighter;
+  font-style: italic;
+  font-family: 'Amatic SC', sans-serif;
+}
+.story-article-block .quote-container .quote {
+  font-size: 28px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+}
+.pricing-block .number {
+  font-size: 46px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+}
+.post-single-block .blog-quote {
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: italic;
+}
+
 .page-nav-logo {
 	padding-right: 80px;
+    height: 36px;
 }
 
 .container .menu {
@@ -78,7 +114,10 @@ div#clock {
     color: #ffffff;
 }
 */
-.figures-wrapper, .faqs-block, .overview-section, .features-section, .benefits-wrapper {
+#distribution-section {
+    background: #f5f5f5;
+}
+.figures-wrapper, .faqs-block, .overview-section, .features-section, .benefits-wrapper, .blog-signup-block {
     background: #62a3a5;
     color: #ffffff;
 }
