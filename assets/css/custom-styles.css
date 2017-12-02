@@ -1,6 +1,6 @@
 /* ======= Custom Styles ======= */
-.svg-white path {
-    fill: white;
+svg path {
+    fill: #ffffff;
 }
 .page-nav-logo {
 	padding-right: 80px;
@@ -14,11 +14,9 @@
 div#countdown {
     padding-top: 70px;
 }
-
 div#clock {
     padding-bottom: 20px;
 }
-
 #clock div {
     display: inline-block;
     font-size: 16px;
@@ -32,7 +30,7 @@ div#clock {
     display: block;
     font-size: 52px;
     font-weight: 300;
-    padding: 30px 0;
+    padding: 10px 0;
     border-bottom: 1px solid #333;
 }
 #clock span {
@@ -40,33 +38,54 @@ div#clock {
 }
 
 @media (max-width: 768px) {
+    div#countdown {
+        padding-top: 30px;
+    }
     #clock div {
         font-size: 14px;
         margin:0 15px;
-    }
-    #clock span {
-        font-size: 42px;
-        padding: 15px 0;
-    }
-}
-
-@media (max-width: 468px) {
-    #clock div {
-        font-size: 11px;
-        margin:0 7px;
     }
     #clock span {
         font-size: 32px;
         padding: 5px 0;
     }
 }
-.figures-wrapper {
+
+@media (max-width: 468px) {
+    div#countdown {
+        padding-top: 20px;
+    }
+    #clock div {
+        font-size: 11px;
+        margin:0 7px;
+    }
+    #clock span {
+        font-size: 22px;
+        padding: 5px 0;
+    }
+}
+/*
+.page-nav-wrapper {
     background: #62a3a5;
 }
-
-.features-section {
+.benefits-wrapper {
+    background: #62a3a5;
+}
+.page-nav-wrapper .page-nav li a {
+    color: #dcdcdc;
+}
+.page-nav-wrapper .page-nav li a:hover {
+    color: #ffffff;
+}
+*/
+.figures-wrapper, .faqs-block, .overview-section, .features-section, .benefits-wrapper {
     background: #62a3a5;
     color: #ffffff;
+}
+.section-title, .section-intro {
+    color: #ffffff;
+}
+.features-section {
     padding-top: 50px;
     padding-bottom: 50px;
 }
