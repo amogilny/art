@@ -42,3 +42,28 @@ $('img.svg').each(function(){
     }, 'xml');
 
 });
+
+jQuery(document).ready(function($) {
+    'use strict';
+
+    // Timeline
+    var $timeline = $( '.timeline .inner' );
+    if ( $timeline.length > 0 ) {
+        $timeline.each( function () {
+
+            $(this).owlCarousel({
+                loop: false,
+                margin: 0,
+                nav: true,
+                dots: false,
+                responsiveClass: true,
+                responsive: {
+                    0: { items: 1 },
+                    480: { items: 2 },
+                    800: { items: 3 },
+                    1200: { items: 4 },
+                }
+            });
+        });
+    }
+});/*Document Ready End*/
