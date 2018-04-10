@@ -166,6 +166,13 @@ body.sticky-page-nav .overview-section {
     padding-bottom: 20px;
 }
 
+.feature-block .block-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: #35373C;
+}
+
 .footer .social-media li a {
     width: 60px;
     height: 60px;
