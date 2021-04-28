@@ -1,1 +1,1 @@
-# artchain.co
+# art
